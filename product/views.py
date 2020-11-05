@@ -16,3 +16,6 @@ def Plant(request):
 	allproduct = AllProduct.objects.all()
 	context = {'allproduct' : allproduct}
 	return render(request,'product/plant.html',context)
+
+def Ball(request):
+	return render(request,'product/ball.html')	
