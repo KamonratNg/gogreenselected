@@ -43,8 +43,9 @@
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.5/examples/jumbotron/jumbotron.css" rel="stylesheet">
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style='background-color: #142B1E;'>
   <a class="navbar-brand" href="{% url 'home-page' %}">GOGREENSELECTED</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -80,14 +81,16 @@
 <main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+  <!--div class="jumbotron">
     <div class="container">
-      <h1 class="display-3">Hello, Plantlover! น้องบอลจ้าาาา</h1>
-      <p>Welcome to GOGREENSELCTED.com</p>
-
-      <p><a class="btn btn-success btn-lg" href="https://bit.ly/2VRawhi" role="button">Add line &raquo;</a></p>
+      <h1 class="display-3">Hello, Plantlover!</h1>
+      <br>
+      <br>
+      <br>
+      <p><a class="btn btn-secondary btn-lg" style='background-color: #142B1E;'
+        href="https://bit.ly/2VRawhi" role="button">Add line &raquo;</a></p>
     </div>
-  </div>
+  </div-->
   <div class="container">
     <!-- Example row of columns -->
     {% block content %}
@@ -99,14 +102,20 @@
   
 </main>
 
-<footer class="container py-5">
+<footer style='background-color: #142B1E;'>
   <div class="row">
     <div class="col-12 col-md">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+      fill="none" stroke="currentColor" stroke-linecap="round" 
+      stroke-linejoin="round" stroke-width="2" class="d-block mb-2" 
+      role="img" viewBox="0 0 24 24" focusable="false">
+      <title>Product</title>
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
       <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
     </div>
     <div class="col-6 col-md">
-      <h5>Features</h5>
+      <h5 style='color: #ffffff;'>Features</h5>
       <ul class="list-unstyled text-small">
         <li><a class="text-muted" href="#">Cool stuff</a></li>
         <li><a class="text-muted" href="#">Random feature</a></li>
